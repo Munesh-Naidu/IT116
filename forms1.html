@@ -83,7 +83,7 @@
                             <label for="l">Large</label>
                             <input type="radio" name="size" id="l" value="large">
                          </p>
-                    <!--  Created a drop menu to choose your favorite color  -->
+                    <!--  Created a combo box to choose your favorite color with 3 options  -->
                          <p>
                             <label for="favColor">What is your favorite color</label>
         
@@ -122,5 +122,25 @@
                     </form>
             </form>
         </section>
+        <hr>
+    <!--Creating froms that will have requirments before pushing submit  -->
+    <section>
+        <h2>Form Validations</h2>
+        <form action="/bananas"> 
+            <!-- Created label and id for requirments -->
+            <label for="required1"></label>
+            <input type="text" name="funny" id="required1" required>
+
+            <!-- this code made it so there is a min of 5 chacters and a max of ten and an email is required  -->
+            <label for="length"></label>
+            <input type="text" name="lenghthy" id="length" minlength="5" maxlength="10">
+
+            <p>
+                <input type="email" required>
+
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
     </body>
 </html>
