@@ -1,8 +1,37 @@
-/* This is the universal selector  */
-*   {
+/* This is the universal selector */
+/* *   {
 
     color: pink;
     background-color: green;
 
+} */
 
+/* This is going to change the background color for the body of the html files */
+body {
+    background-color: beige;
+}
+/*this is going to change the font size for ALL buttons  */
+button {
+    font-size: 30px;
+}
+
+/*this is changing the color for Header 1 and Header 2  */
+h1, h2 {
+    color: rgb(9, 89, 2);
+}
+
+/*This speciefes the signup button because we used the id and change it colors  */
+#signup {
+    background-color: pink;
+    color: blue;
+}
+
+/* This is a class selector that you can use to change certain classes */
+.QB{
+    color: blue;
+}
+
+/*  */
+.post a {
+    color: hotpink;
 }
