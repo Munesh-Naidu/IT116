@@ -51,12 +51,20 @@ input[type="text"]{
 a[href*="google"]{
     color: darkgoldenrod;
 }
-/*  */
+/* This is pseudo class, it adds a special state to a specific element in this case we changed the color when we hover over a button */
 button:hover {
     background-color: red;
     color: aqua;
 }
-
+/* This is pseudo class that changes the background color to when the button is active */
 .post button:active {
     background-color: darkgreen;
+}
+/* this is a pseudo element changing the first letter of all <h2> tags */
+h2::first-letter {
+    font-size: 50px;
+}
+/*this is a pseudo element changing the first line for the <p> tag  */
+p::first-line {
+    color: violet;
 }
