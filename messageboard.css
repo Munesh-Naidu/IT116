@@ -31,7 +31,32 @@ h1, h2 {
     color: blue;
 }
 
-/*  */
+/* this is to edit the anchor tags in a class called post */
 .post a {
     color: hotpink;
+}
+/* This is to edit all anchor tags in footer, this is a descendant selector */
+footer > a{
+    color: red;
+}
+/* This is an attribute selector where you can edit the text attributes in this input */
+input[type="password"]{
+    color: aquamarine;
+}
+
+input[type="text"]{
+    color: blueviolet;
+}
+/*Looks for specific characters within href attributes  */
+a[href*="google"]{
+    color: darkgoldenrod;
+}
+/*  */
+button:hover {
+    background-color: red;
+    color: aqua;
+}
+
+.post button:active {
+    background-color: darkgreen;
 }
