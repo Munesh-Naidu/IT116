@@ -1,0 +1,12 @@
+header > a{
+    color: rgb(239, 18, 177);
+    font-size: 30px;
+}
+
+#schools a{
+    color: darkgreen;
+}
+
+#teams a{
+    color: darkblue;
+}
