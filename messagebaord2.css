@@ -1,0 +1,83 @@
+/*  */
+/* *   {
+    color:pink;
+    background-color:green;
+} */
+
+/*  */
+body {
+
+    background-color: beige;
+}
+/*  */
+button {
+    font-size:30px;
+}
+
+/*  */
+h1, h2 {
+
+    color:crimson; 
+}
+
+/*  */
+#signup {
+
+    background-color: pink;
+    color:blue; 
+}
+/*  */
+.sec{
+
+    color:green;
+}
+
+/*  */
+.post a {
+
+    color:hotpink; 
+}
+/*  */
+footer > a{
+
+    color:purple;
+}
+/*  */
+input[type="password"]{
+
+    color:purple;
+
+}
+
+input[type="text"]{
+
+    color:red; 
+}
+
+/*  */
+a[href*="google"]{
+    color:darkorange;
+
+}
+/*  */
+button:hover {
+
+    background-color:red;
+    color:aquamarine;
+}
+/*  */
+.post button:active {
+
+    background-color:green;
+}
+/*  */
+h2::first-letter {
+
+    font-size:50px; 
+}
+
+/*  */
+p::first-line {
+
+    color:green;
+}
